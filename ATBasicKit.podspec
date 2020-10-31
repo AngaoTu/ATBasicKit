@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "Encapsulation for the iOS Basic framework"
   spec.homepage     = "https://github.com/AngaoTu/ATBasicKit"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = "MIT"
   spec.author       = { "AngaoTu" => "fetedream@foxmail.com" }
   spec.platform     = :ios, '10.0'
   spec.source       = { :git => "https://github.com/AngaoTu/ATBasicKit.git", :tag => spec.version }
