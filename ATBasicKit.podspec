@@ -7,8 +7,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author       = { "AngaoTu" => "fetedream@foxmail.com" }
   spec.platform     = :ios, '10.0'
-  spec.source       = { :git => "https://github.com/AngaoTu/ATBasicKit.git", :tag => "#{spec.version}" }
-  spec.source_files = "ATBasicKit", "ATBasicKit/**/*.{h,m}"
+  spec.source       = { :git => "https://github.com/AngaoTu/ATBasicKit.git", :tag => spec.version }
+  spec.source_files = "ATBasicKit", "ATBasicKit/**/*.{swift,h,m}"
   spec.requires_arc = true
   spec.frameworks   = 'UIKit', 'Foundation'
 

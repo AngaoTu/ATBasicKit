@@ -7,81 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F944E9C254D9738001663DE /* ATBasicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F944E92254D9738001663DE /* ATBasicKit.framework */; };
-		4F944EA1254D9738001663DE /* ATBasicKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F944EA0254D9738001663DE /* ATBasicKitTests.swift */; };
-		4F944EA3254D9738001663DE /* ATBasicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F944E95254D9738001663DE /* ATBasicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F944EC8254D9CE6001663DE /* ATBasicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F944EBE254D9CE6001663DE /* ATBasicKit.framework */; };
+		4F944ECD254D9CE6001663DE /* ATBasicKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F944ECC254D9CE6001663DE /* ATBasicKitTests.swift */; };
+		4F944ECF254D9CE6001663DE /* ATBasicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F944EC1254D9CE6001663DE /* ATBasicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F944EDD254D9D60001663DE /* ATNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F944EDC254D9D60001663DE /* ATNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F944E9D254D9738001663DE /* PBXContainerItemProxy */ = {
+		4F944EC9254D9CE6001663DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F944E89254D9738001663DE /* Project object */;
+			containerPortal = 4F944EB5254D9CE6001663DE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F944E91254D9738001663DE;
+			remoteGlobalIDString = 4F944EBD254D9CE6001663DE;
 			remoteInfo = ATBasicKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F944E92254D9738001663DE /* ATBasicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATBasicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F944E95254D9738001663DE /* ATBasicKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBasicKit.h; sourceTree = "<group>"; };
-		4F944E96254D9738001663DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F944E9B254D9738001663DE /* ATBasicKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATBasicKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F944EA0254D9738001663DE /* ATBasicKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATBasicKitTests.swift; sourceTree = "<group>"; };
-		4F944EA2254D9738001663DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F944EBE254D9CE6001663DE /* ATBasicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATBasicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F944EC1254D9CE6001663DE /* ATBasicKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBasicKit.h; sourceTree = "<group>"; };
+		4F944EC2254D9CE6001663DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F944EC7254D9CE6001663DE /* ATBasicKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATBasicKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F944ECC254D9CE6001663DE /* ATBasicKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATBasicKitTests.swift; sourceTree = "<group>"; };
+		4F944ECE254D9CE6001663DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F944EDC254D9D60001663DE /* ATNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F944E8F254D9738001663DE /* Frameworks */ = {
+		4F944EBB254D9CE6001663DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F944E98254D9738001663DE /* Frameworks */ = {
+		4F944EC4254D9CE6001663DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F944E9C254D9738001663DE /* ATBasicKit.framework in Frameworks */,
+				4F944EC8254D9CE6001663DE /* ATBasicKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F944E88254D9738001663DE = {
+		4F944EB4254D9CE6001663DE = {
 			isa = PBXGroup;
 			children = (
-				4F944E94254D9738001663DE /* ATBasicKit */,
-				4F944E9F254D9738001663DE /* ATBasicKitTests */,
-				4F944E93254D9738001663DE /* Products */,
+				4F944EC0254D9CE6001663DE /* ATBasicKit */,
+				4F944ECB254D9CE6001663DE /* ATBasicKitTests */,
+				4F944EBF254D9CE6001663DE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F944E93254D9738001663DE /* Products */ = {
+		4F944EBF254D9CE6001663DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F944E92254D9738001663DE /* ATBasicKit.framework */,
-				4F944E9B254D9738001663DE /* ATBasicKitTests.xctest */,
+				4F944EBE254D9CE6001663DE /* ATBasicKit.framework */,
+				4F944EC7254D9CE6001663DE /* ATBasicKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F944E94254D9738001663DE /* ATBasicKit */ = {
+		4F944EC0254D9CE6001663DE /* ATBasicKit */ = {
 			isa = PBXGroup;
 			children = (
-				4F944E95254D9738001663DE /* ATBasicKit.h */,
-				4F944E96254D9738001663DE /* Info.plist */,
+				4F944EC1254D9CE6001663DE /* ATBasicKit.h */,
+				4F944EC2254D9CE6001663DE /* Info.plist */,
+				4F944EDC254D9D60001663DE /* ATNavigationBar.swift */,
 			);
 			path = ATBasicKit;
 			sourceTree = "<group>";
 		};
-		4F944E9F254D9738001663DE /* ATBasicKitTests */ = {
+		4F944ECB254D9CE6001663DE /* ATBasicKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				4F944EA0254D9738001663DE /* ATBasicKitTests.swift */,
-				4F944EA2254D9738001663DE /* Info.plist */,
+				4F944ECC254D9CE6001663DE /* ATBasicKitTests.swift */,
+				4F944ECE254D9CE6001663DE /* Info.plist */,
 			);
 			path = ATBasicKitTests;
 			sourceTree = "<group>";
@@ -89,25 +92,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4F944E8D254D9738001663DE /* Headers */ = {
+		4F944EB9254D9CE6001663DE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F944EA3254D9738001663DE /* ATBasicKit.h in Headers */,
+				4F944ECF254D9CE6001663DE /* ATBasicKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4F944E91254D9738001663DE /* ATBasicKit */ = {
+		4F944EBD254D9CE6001663DE /* ATBasicKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F944EA6254D9738001663DE /* Build configuration list for PBXNativeTarget "ATBasicKit" */;
+			buildConfigurationList = 4F944ED2254D9CE6001663DE /* Build configuration list for PBXNativeTarget "ATBasicKit" */;
 			buildPhases = (
-				4F944E8D254D9738001663DE /* Headers */,
-				4F944E8E254D9738001663DE /* Sources */,
-				4F944E8F254D9738001663DE /* Frameworks */,
-				4F944E90254D9738001663DE /* Resources */,
+				4F944EB9254D9CE6001663DE /* Headers */,
+				4F944EBA254D9CE6001663DE /* Sources */,
+				4F944EBB254D9CE6001663DE /* Frameworks */,
+				4F944EBC254D9CE6001663DE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,45 +118,46 @@
 			);
 			name = ATBasicKit;
 			productName = ATBasicKit;
-			productReference = 4F944E92254D9738001663DE /* ATBasicKit.framework */;
+			productReference = 4F944EBE254D9CE6001663DE /* ATBasicKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4F944E9A254D9738001663DE /* ATBasicKitTests */ = {
+		4F944EC6254D9CE6001663DE /* ATBasicKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F944EA9254D9738001663DE /* Build configuration list for PBXNativeTarget "ATBasicKitTests" */;
+			buildConfigurationList = 4F944ED5254D9CE6001663DE /* Build configuration list for PBXNativeTarget "ATBasicKitTests" */;
 			buildPhases = (
-				4F944E97254D9738001663DE /* Sources */,
-				4F944E98254D9738001663DE /* Frameworks */,
-				4F944E99254D9738001663DE /* Resources */,
+				4F944EC3254D9CE6001663DE /* Sources */,
+				4F944EC4254D9CE6001663DE /* Frameworks */,
+				4F944EC5254D9CE6001663DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F944E9E254D9738001663DE /* PBXTargetDependency */,
+				4F944ECA254D9CE6001663DE /* PBXTargetDependency */,
 			);
 			name = ATBasicKitTests;
 			productName = ATBasicKitTests;
-			productReference = 4F944E9B254D9738001663DE /* ATBasicKitTests.xctest */;
+			productReference = 4F944EC7254D9CE6001663DE /* ATBasicKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F944E89254D9738001663DE /* Project object */ = {
+		4F944EB5254D9CE6001663DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					4F944E91254D9738001663DE = {
+					4F944EBD254D9CE6001663DE = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
-					4F944E9A254D9738001663DE = {
+					4F944EC6254D9CE6001663DE = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 4F944E8C254D9738001663DE /* Build configuration list for PBXProject "ATBasicKit" */;
+			buildConfigurationList = 4F944EB8254D9CE6001663DE /* Build configuration list for PBXProject "ATBasicKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,26 +165,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 4F944E88254D9738001663DE;
-			productRefGroup = 4F944E93254D9738001663DE /* Products */;
+			mainGroup = 4F944EB4254D9CE6001663DE;
+			productRefGroup = 4F944EBF254D9CE6001663DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F944E91254D9738001663DE /* ATBasicKit */,
-				4F944E9A254D9738001663DE /* ATBasicKitTests */,
+				4F944EBD254D9CE6001663DE /* ATBasicKit */,
+				4F944EC6254D9CE6001663DE /* ATBasicKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F944E90254D9738001663DE /* Resources */ = {
+		4F944EBC254D9CE6001663DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F944E99254D9738001663DE /* Resources */ = {
+		4F944EC5254D9CE6001663DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,33 +194,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F944E8E254D9738001663DE /* Sources */ = {
+		4F944EBA254D9CE6001663DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F944EDD254D9D60001663DE /* ATNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F944E97254D9738001663DE /* Sources */ = {
+		4F944EC3254D9CE6001663DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F944EA1254D9738001663DE /* ATBasicKitTests.swift in Sources */,
+				4F944ECD254D9CE6001663DE /* ATBasicKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F944E9E254D9738001663DE /* PBXTargetDependency */ = {
+		4F944ECA254D9CE6001663DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F944E91254D9738001663DE /* ATBasicKit */;
-			targetProxy = 4F944E9D254D9738001663DE /* PBXContainerItemProxy */;
+			target = 4F944EBD254D9CE6001663DE /* ATBasicKit */;
+			targetProxy = 4F944EC9254D9CE6001663DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4F944EA4254D9738001663DE /* Debug */ = {
+		4F944ED0254D9CE6001663DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		4F944EA5254D9738001663DE /* Release */ = {
+		4F944ED1254D9CE6001663DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,9 +343,10 @@
 			};
 			name = Release;
 		};
-		4F944EA7254D9738001663DE /* Debug */ = {
+		4F944ED3254D9CE6001663DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,14 +362,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AngaoTu.ATBasicKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4F944EA8254D9738001663DE /* Release */ = {
+		4F944ED4254D9CE6001663DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -384,9 +392,10 @@
 			};
 			name = Release;
 		};
-		4F944EAA254D9738001663DE /* Debug */ = {
+		4F944ED6254D9CE6001663DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ATBasicKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,9 +410,10 @@
 			};
 			name = Debug;
 		};
-		4F944EAB254D9738001663DE /* Release */ = {
+		4F944ED7254D9CE6001663DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ATBasicKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -421,34 +431,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F944E8C254D9738001663DE /* Build configuration list for PBXProject "ATBasicKit" */ = {
+		4F944EB8254D9CE6001663DE /* Build configuration list for PBXProject "ATBasicKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F944EA4254D9738001663DE /* Debug */,
-				4F944EA5254D9738001663DE /* Release */,
+				4F944ED0254D9CE6001663DE /* Debug */,
+				4F944ED1254D9CE6001663DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F944EA6254D9738001663DE /* Build configuration list for PBXNativeTarget "ATBasicKit" */ = {
+		4F944ED2254D9CE6001663DE /* Build configuration list for PBXNativeTarget "ATBasicKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F944EA7254D9738001663DE /* Debug */,
-				4F944EA8254D9738001663DE /* Release */,
+				4F944ED3254D9CE6001663DE /* Debug */,
+				4F944ED4254D9CE6001663DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F944EA9254D9738001663DE /* Build configuration list for PBXNativeTarget "ATBasicKitTests" */ = {
+		4F944ED5254D9CE6001663DE /* Build configuration list for PBXNativeTarget "ATBasicKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F944EAA254D9738001663DE /* Debug */,
-				4F944EAB254D9738001663DE /* Release */,
+				4F944ED6254D9CE6001663DE /* Debug */,
+				4F944ED7254D9CE6001663DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F944E89254D9738001663DE /* Project object */;
+	rootObject = 4F944EB5254D9CE6001663DE /* Project object */;
 }
